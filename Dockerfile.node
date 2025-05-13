@@ -1,0 +1,12 @@
+# Dockerfile.node
+
+FROM python:3.10-slim
+
+WORKDIR /app
+
+COPY node_simulator/node_container.py .
+
+RUN pip install requests
+
+CMD ["python", "node_container.py"]
+
