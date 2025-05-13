@@ -35,10 +35,10 @@ A lightweight simulation-based distributed system that mimics core Kubernetes cl
 
 | Component        | Technology              |
 |------------------|--------------------------|
-| API Server        | Flask / Node.js          |
+| API Server        | Flask          |
 | Node Simulation   | Docker                   |
 | Scheduling Logic  | First-Fit / Best-Fit / Worst-Fit |
-| Interface         | CLI or Web UI            |
+| Interface         | CLI            |
 
 ---
 
